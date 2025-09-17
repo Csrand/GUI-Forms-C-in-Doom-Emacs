@@ -1,0 +1,23 @@
+# Build folders
+bin/
+obj/
+
+# VS Code / JetBrains / Emacs temp files
+.vscode/
+.idea/
+*.swp
+*~
+
+# User-specific files
+*.user
+*.suo
+*.userprefs
+
+# Logs and temporary files
+*.log
+*.tmp
+*.cache
+
+# OS files
+.DS_Store
+Thumbs.db
