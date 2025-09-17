@@ -1,0 +1,24 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        x:Class="MeuFormulario.MainWindow"
+        Title="Formulário Genérico" Width="400" Height="400">
+
+    <StackPanel Margin="10" Spacing="10">
+
+        <TextBlock Text="nome:"/>
+        <TextBox Name="Campo1Box"/>
+
+        <TextBlock Text="departamento:"/>
+        <TextBox Name="Campo2Box"/>
+
+        <TextBlock Text="salario por Hora:"/>
+        <TextBox Name="Campo3Box"/>
+
+        <TextBlock Text="Horas trabalhadas"/>
+        <TextBox Name="Campo4Box"/>
+
+        <Button Content="Executar" Click="OnExecutar"/>
+        <TextBlock Name="Resultado" TextWrapping="Wrap" />
+
+    </StackPanel>
+</Window>
