@@ -1,0 +1,14 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        x:Class="MeuFormulario.MainWindow"
+        Width="400" Height="300"
+        Title="Cadastro de Departamentos">
+
+    <StackPanel Margin="10" Spacing="5">
+        <TextBox x:Name="NomeBox" Watermark="Nome do departamento"/>
+        <TextBox x:Name="SalarioBox" Watermark="Código do departamento"/>
+        <TextBox x:Name="AumentoBox" Watermark="Quantidade de funcionários"/>
+        <Button Content="Imprimir" Click="BtnImprimir_Click"/>
+        <TextBlock x:Name="Resultado" TextWrapping="Wrap"/>
+    </StackPanel>
+</Window>
